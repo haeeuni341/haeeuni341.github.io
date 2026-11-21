@@ -1,0 +1,255 @@
+#searchcontainer{height: 40px; background-color:rgb(255, 255, 255);
+    }
+
+#searchcontainer #logo{ width: 200px; height: 70px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMkAAABICAMAAABr9CFKAAAAP1BMVEUAAAD/I0L/JEL/JEH/JED/IED/JEH/JUL/JEL/I0H/IED/I0L/JEH/JUD/JEH/I0L/I0D/JEH/I0P/JEP/JEKyzp5HAAAAFHRSTlMA34BgQB+/n++gEJCwMHCfUM9Qz4ilXboAAAQzSURBVGje1ZrrtqMgDIW5S/HSm+//rLNmbFdNNybUg0zP/nd6DOaTkEBUbSr5lZIq1BRWGtROuXkt9UPZeaVQaqXXVt0vJiFGs/9Ckuu+KflCEl1mcyMeuF9MErYi8j5z6tUiP7O6B+MUle/jPOvO1yRBTyyJOk4dsWeljV/7GB+/3iqTnMHkxySoaDLBHMd6JDgllUhQ2uOooSpJTyxSPRJEQQ9dNRJMwZVJ8DEN659MLRKsikeSzANkyq4WCU7JoSSzeyfpK5HglBxMEt5JLpVIsCoeQkIfVRAdlEnkFHw4yURJbCUSrIqHkwyExNSr8R5cO5hEr0jCs5hczEo3nmTs1kr5KZnjZF/6N5hZFCjB2z3T0+RELjOLek1uoZRbLr74/FrtBBLIUMzTxMVvIJUW7+rxVxTmZSTJuzyChyhXhQRj1EslzfAkKe+KZuK5IUmE/MmseEi25FqUbUlCzC4Cic65GeQpaU/iPiEx4no3LUiYRYwkbHqYmE1FKxI08wLJKZOyT0zN+38k6hOSgR4WUb4VCbocGRL0JWRuDKTtSCZwmSGBq9nC6OqSRJYEnzKSyIA28ClYJjF6pUiHeert1xB6S3j6IhJx8+P/CapsKclp3qe73Rij40hwC5n4o8ABJCjtshXCSE55JjfBDuAQEpTZQQI7ArY0HUeCKPgcRRJuJZwhUA8kQT9gcJ4EwZnIa0USE0NikARfhRhuShqSzAYfpEgy5Dt/MJJrShJhlSaWBJM282ayKck8QqnjSLCQDkwKbksyba9sU/L7lWkMtyXp37aEV5EEyfNdCd0tmhqRdG9DBJnklj8EKLe7I4Htw4E6mdGgsa1GrAaZZNxYV+dDOxIoGykJHMxFEv9RF9IeRqIcSzLJJCrfwJiO7kjIb2wijJ0jEZPt/diOBApWOBRGkeSUC8fETEkjkjOkIolkIhaJI+lUQ5JI/pRI8DYXrqHqWpIYWPASSSL/8Ew5uaqWJB6GlkhUyMaP05iCW5IQv6IqIjEbS3q0hkq1JCFWQxmJK/1AsCkJCRYrkGBFGb+KxEGoSCTmZf5VJEpDqAgkI0ziZfwKkgkGFkhUwDfCMfSTpUoPt+xLAz0dwdUfkQxAkiJ4K3y+cSFTQq4FG68Lv3n4lMRnirpZ+eXtojPcB9a8TopzdsIz5n4SPI/1cD55TopmzhmwtO3W5xRYanRNErNpH15r5wYVnHs5dV1cZZztgLICSYpMR+Jh2cEo7PeSrvKUyCTYo8rvZLXPtbCZCtiXTkldEieZu5GNRa1Qt6IpCVVJcEAMGj4WbekHkPhWuDaJy1vLjUL5izvHhe25Bgnmmnz0o1IRcFFVnOuTTEwvCnQqAuGctUBZjQSDX49FARNNUpx6dkqqkmDwyw4OcXmhf+1sUry8DZsZot9LMuq1FFW6/vV/8XDonXroDwd3OfCOVCS+AAAAAElFTkSuQmCC);
+transform: scale(0.4); position: absolute; left: 16px;top: 20px;}
+
+#searchcontainer .search { 
+    height: 20px; width: 500px; 
+    background-color: rgb(242, 242, 242);
+    margin: 0 auto; border-radius: 20px;
+    font-size:16px; color: #a1a1a1; padding: 10px;}
+#searchcontainer .search .search1 {outline: none;border: none;
+        height: auto; width:100%;  padding-left: 12px;
+        background-color:transparent;}
+
+#searchcontainer .search .search1:hover{ 
+    cursor:pointer;
+    background-color:red;}
+
+#menu{font-size :18px; color: rgb(70, 70, 70); position: absolute; left: 1400px;top:30px;}
+#searchcontainer .searchcontainer #icon1{width: 20px;height: 20px;
+        background-image: url();}
+
+#leftnavigation{float: left;margin-bottom: 30%;}
+#leftnavigation .first {width: 240px; height: 40px; border-radius: 25px;
+         background-color:rgb(237, 237, 237);
+        font-size: 18px; 
+        padding-left:20px; padding-top: 10px; margin-top:10px;margin-left: 10px;}
+#leftnavigation .second {width: 240px; height: 40px; border-radius: 25px;
+        background-color:rgb(255, 255, 255);
+        font-size: 18px; 
+        padding-left:20px; padding-top: 10px; margin-top:10px;margin-left: 10px;}
+#leftnavigation .second:hover{
+    cursor:pointer;
+    background-color: rgb(237, 237, 237);}
+ 
+        #leftnavigation .third {width: 250px; height: 50px; border-radius: 25px;
+            background-color:rgb(255, 46, 77);
+            font-size: 18px; 
+            text-align: center; display: flex ;justify-content: center; align-items: center;
+            margin-top:10px;margin-left: 10px;}
+#leftnavigation .third:hover{cursor: pointer;background-color:rgb(223, 39, 66) ;}
+#leftnavigation .third .login {border: none; outline: none; 
+            font-size: 16px; margin: auto;
+            height: auto; width: 100%; color: white; background-color: transparent;}
+#leftnavigation #alarm {width: 240px; height: 150px; 
+            border-style: solid; border-color: rgb(237, 239, 239);
+            margin-top:10px;margin-left: 10px; border-radius: 10px;}
+#leftnavigation #alarm #text1 {color: rgb(89, 89, 89); font-size: 16px;
+             font-family: 等线 ; margin-left: 15px; margin-top: 20px;}
+#leftnavigation #alarm .text2{ font-family:等线; font-weight: lighter;
+            color:rgb(126, 126, 126);
+            margin-left:25px ; margin-top: 8px;}
+
+#subnavigation {margin-left: 19%;margin-top: 20px;}
+#subnavigation #recommend {letter-spacing:2px;
+            width: 80px; height:40px; padding: 12px; border-radius: 15px;
+            background-color: rgb(237, 237, 237);}
+#subnavigation .stitle {letter-spacing: 2px;}
+
+#mian{float: left;}
+#main .main1 {width: 240px; height: 350px; background-color: rgb(255, 255, 255);
+            margin-left:12px;margin-top: 20px;float: left;}
+#main .main1 #photo1{float: left; width: 240px; 
+            height: 290px;border-radius: 20px;}
+#main .main1 .maintext{float: left; width: 100%;
+            margin-left: 8px;margin-top: 8px;
+            font-size: 14px;}
+#main .main1 #profile1 {width: 25px; height: 25px; 
+            float: left; ;border-radius: 25px;
+            margin-left: 8px;margin-top: 5px;}
+#main .main1 .user{font-size: 13px; color: #6e6e6e;
+            float: left;  margin-left: 5px;margin-top:6px ;}
+#main .main1  .likepng{float:right; width: 20px; height: 20px;
+            margin-right: 2px; margin-top: 6px;}     
+#main .main1 .like{font-size: 13px;color: #6e6e6e;
+            float: right;margin-top: 6px;margin-right: 4px;}
+
+    #main .main2{width: 240px; height: 350px; background-color: rgb(255, 255, 255);
+            margin-left: 30px; margin-top: 20px; float: left;}
+    #main .main2 #photo2{float: left; width: 240px; 
+                height: 290px;border-radius: 20px;}
+    #main .main2 .maintext{float: left; width: 100%;
+                margin-left: 8px;margin-top: 8px;
+                font-size: 14px;}
+    #main .main2 #profile2 {width: 25px; height: 25px; 
+                float: left; ;border-radius: 25px;
+                margin-left: 8px;margin-top: 5px;}
+    #main .main2 .user{font-size: 13px; color: #6e6e6e;
+                float: left;  margin-left: 5px;margin-top:6px ;}
+    #main .main2  .likepng{float:right; width: 20px; height: 20px;
+                margin-right: 2px; margin-top: 6px;}     
+    #main .main2 .like{font-size: 13px;color: #6e6e6e;
+                float: right;margin-top: 6px;margin-right: 4px;}
+
+    #main .main3{width: 240px; height: 350px; background-color: rgb(255, 255, 255);
+            margin-left: 30px; margin-top: 20px; float: left;}
+    #main .main3 #photo3{float: left; width: 240px; 
+                height: 290px;border-radius: 20px;}
+    #main .main3 .maintext{float: left; width: 100%;
+                margin-left: 8px;margin-top: 8px;
+                font-size: 14px;}
+    #main .main3 #profile3 {width: 25px; height: 25px; 
+                float: left; ;border-radius: 25px;
+                margin-left: 8px;margin-top: 5px;}
+    #main .main3 .user{font-size: 13px; color: #6e6e6e;
+                float: left;  margin-left: 5px;margin-top:6px ;}
+    #main .main3  .likepng{float:right; width: 20px; height: 20px;
+                margin-right: 2px; margin-top: 6px;}     
+    #main .main3 .like{font-size: 13px;color: #6e6e6e;
+                float: right;margin-top: 6px;margin-right: 4px;}
+    
+    #main .main4{width: 240px; height: 370px; background-color: rgb(255, 255, 255);
+            margin-left: 30px; margin-top: 20px; float: left;}
+    #main .main4 #photo4{float: left; width: 240px; 
+                height: 290px;border-radius: 20px;}
+    #main .main4 .maintext{float: left; width: 100%;
+                margin-left: 8px;margin-top: 8px;
+                font-size: 14px;}
+    #main .main4 #profile4 {width: 25px; height: 25px; 
+                float: left; ;border-radius: 25px;
+                margin-left: 8px;margin-top: 5px;}
+    #main .main4 .user{font-size: 13px; color: #6e6e6e;
+                float: left;  margin-left: 5px;margin-top:6px ;}
+    #main .main4  .likepng{float:right; width: 20px; height: 20px;
+                margin-right: 2px; margin-top: 6px;}     
+    #main .main4 .like{font-size: 13px;color: #6e6e6e;
+                float: right;margin-top: 6px;margin-right: 4px;}
+
+    #main .main5{width: 240px; height: 370px; background-color: rgb(255, 255, 255);
+            margin-left: 30px; margin-top: 20px; float: left;}
+    #main .main5 #photo5{float: left; width: 240px; 
+                height: 290px;border-radius: 20px;}
+    #main .main5 .maintext{float: left; width: 100%;
+                margin-left: 8px;margin-top: 8px;
+                font-size: 14px;}
+    #main .main5 #profile5 {width: 25px; height: 25px; 
+                float: left; ;border-radius: 25px;
+                margin-left: 8px;margin-top: 5px;}
+    #main .main5 .user{font-size: 13px; color: #6e6e6e;
+                float: left;  margin-left: 5px;margin-top:6px ;}
+    #main .main5  .likepng{float:right; width: 20px; height: 20px;
+                margin-right: 2px; margin-top: 6px;}     
+    #main .main5 .like{font-size: 13px;color: #6e6e6e;
+                float: right;margin-top: 6px;margin-right: 4px;}
+    
+    #main .main2-1{width: 240px; height: 310px; background-color: rgb(255, 255, 255);
+            margin-left: 12px; margin-top: 10px; float: left;}
+    #main .main2-1 #photo2-1{float: left; width: 240px; 
+                height: 230px;border-radius: 20px;}
+    #main .main2-1 .maintext{float: left; width: 100%;
+                margin-left: 8px;margin-top: 8px;
+                font-size: 14px;}
+    #main .main2-1 .profile2-1 {width: 25px; height: 25px; 
+                float: left; ;border-radius: 25px;
+                margin-left: 8px;margin-top: 5px;}
+    #main .main2-1 .user{font-size: 13px; color: #6e6e6e;
+                float: left;  margin-left: 5px;margin-top:6px ;}
+    #main .main2-1  .likepng{float:right; width: 20px; height: 20px;
+                margin-right: 2px; margin-top: 6px;}     
+    #main .main2-1 .like{font-size: 13px;color: #6e6e6e;
+                float: right;margin-top: 6px;margin-right: 4px;}
+
+    #main .main2-2{width: 240px; height: 280px; background-color: rgb(255, 255, 255);
+            margin-left: 30px; margin-top: 10px; float: left;}
+    #main .main2-2 #photo2-2{float: left; width: 240px; 
+                height: 200px;border-radius: 20px;}
+    #main .main2-2 .maintext{float: left; width: 100%;
+                margin-left: 8px;margin-top: 8px;
+                font-size: 14px;}
+    #main .main2-2 .profile2-1 {width: 25px; height: 25px; 
+                float: left; ;border-radius: 25px;
+                margin-left: 8px;margin-top: 5px;}
+    #main .main2-2 .user{font-size: 13px; color: #6e6e6e;
+                float: left;  margin-left: 5px;margin-top:6px ;}
+    #main .main2-2  .likepng{float:right; width: 20px; height: 20px;
+                margin-right: 2px; margin-top: 6px;}     
+    #main .main2-2 .like{font-size: 13px;color: #6e6e6e;
+                float: right;margin-top: 6px;margin-right: 4px;}
+
+    #main .main2-3{width: 240px; height: 380px; background-color: rgb(255, 255, 255);
+            margin-left: 30px; margin-top: 10px; float: left;}
+    #main .main2-3 #photo2-3{float: left; width: 240px; 
+                height: 300px;border-radius: 20px;}
+    #main .main2-3 .maintext{float: left; width: 100%;
+                margin-left: 8px;margin-top: 8px;
+                font-size: 14px;}
+    #main .main2-3 .profile2-1 {width: 25px; height: 25px; 
+                float: left; ;border-radius: 25px;
+                margin-left: 8px;margin-top: 5px;}
+    #main .main2-3 .user{font-size: 13px; color: #6e6e6e;
+                float: left;  margin-left: 5px;margin-top:6px ;}
+    #main .main2-3  .likepng{float:right; width: 20px; height: 20px;
+                margin-right: 2px; margin-top: 6px;}     
+    #main .main2-3 .like{font-size: 13px;color: #6e6e6e;
+                float: right;margin-top: 6px;margin-right: 4px;}
+
+    #main .main2-4{width: 240px; height: 400px; background-color: rgb(255, 255, 255);
+            margin-left: 30px; margin-top: 10px; float: left;}
+    #main .main2-4 #photo2-4{float: left; width: 240px; 
+                height: 320px;border-radius: 20px;}
+    #main .main2-4 .maintext{float: left; width: 100%;
+                margin-left: 8px;margin-top: 8px;
+                font-size: 14px;}
+    #main .main2-4 .profile2-1 {width: 25px; height: 25px; 
+                float: left; ;border-radius: 25px;
+                margin-left: 8px;margin-top: 5px;}
+    #main .main2-4 .user{font-size: 13px; color: #6e6e6e;
+                float: left;  margin-left: 5px;margin-top:6px ;}
+    #main .main2-4  .likepng{float:right; width: 20px; height: 20px;
+                margin-right: 2px; margin-top: 6px;}     
+    #main .main2-4 .like{font-size: 13px;color: #6e6e6e;
+                float: right;margin-top: 6px;margin-right: 4px;}
+
+    #main .main2-5{width: 240px; height: 400px; background-color: rgb(255, 255, 255);
+            margin-left: 30px; margin-top: 10px; float: left;}
+    #main .main2-5 #photo2-5{float: left; width: 240px; 
+                height: 320px;border-radius: 20px;}
+    #main .main2-5 .maintext{float: left; width: 100%;
+                margin-left: 8px;margin-top: 8px;
+                font-size: 14px;}
+    #main .main2-5 .profile2-1 {width: 25px; height: 25px; 
+                float: left; ;border-radius: 25px;
+                margin-left: 8px;margin-top: 5px;}
+    #main .main2-5 .user{font-size: 13px; color: #6e6e6e;
+                float: left;  margin-left: 5px;margin-top:6px ;}
+    #main .main2-5  .likepng{float:right; width: 20px; height: 20px;
+                margin-right: 2px; margin-top: 6px;}     
+    #main .main2-5 .like{font-size: 13px;color: #6e6e6e;
+                float: right;margin-top: 6px;margin-right: 4px;}
+
+    #main .main3-1{width: 240px; height: 310px; background-color: rgb(255, 255, 255);
+            margin-left: 12px; margin-top: 10px; float: left;}
+    #main .main3-1 #photo3-1{float: left; width: 240px; 
+                height: 230px;border-radius: 20px;}
+    #main .main3-1 .maintext{float: left; width: 100%;
+                margin-left: 8px;margin-top: 8px;
+                font-size: 14px;}
+    #main .main3-1 .profile3-1 {width: 25px; height: 25px; 
+                float: left; ;border-radius: 25px;
+                margin-left: 8px;margin-top: 5px;}
+    #main .main3-1 .user{font-size: 13px; color: #6e6e6e;
+                float: left;  margin-left: 5px;margin-top:6px ;}
+    #main .main3-1  .likepng{float:right; width: 20px; height: 20px;
+                margin-right: 2px; margin-top: 6px;}     
+    #main .main3-1 .like{font-size: 13px;color: #6e6e6e;
+                float: right;margin-top: 6px;margin-right: 4px;}
+
+    #white {width: 150px;height: 150px;background-color: rgb(255, 255, 255);
+            transform: rotate(60deg);float: left;}
+    #red {width: 50px;height: 50px;background-color: red;float: left;
+         margin-top: 54px;}
+    #white2 {width: 150px;height: 150px;background-color: rgb(255, 255, 255);
+        transform: rotate(120deg);float: left;}
